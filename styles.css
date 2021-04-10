@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+#header li {
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+
+#header li img {
+  border-radius: 50%;
+}
+
+#header li img:hover {
+  -webkit-box-shadow: 0 0 0 3.5px #F0F0F0;
+          box-shadow: 0 0 0 3.5px #F0F0F0;
+}
+
+#header li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000de;
+  margin-bottom: -0.1rem;
+}
+
+#header li:nth-child(1), #header li:nth-child(2) {
+  margin-bottom: 0.4rem;
+}
+
+#header li:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+#header li:nth-child(3):hover {
+  background: #F0F0F0;
+}
+
+#header li:hover {
+  text-decoration: underline;
+}
+
+#main, main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6.5rem;
+}
+
+#main img, main img {
+  width: 272px;
+  height: 92px;
+}
+
+#main input, main input {
+  width: 580px;
+  height: 46px;
+  border-radius: 24px;
+  outline: none;
+  border: 1px solid #dfe1e5;
+  padding-left: 2.7rem;
+  font-size: 16px;
+}
+
+#main .input-zone, main .input-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+  border-radius: 24px;
+}
+
+#main .input-zone:hover, main .input-zone:hover {
+  -webkit-box-shadow: 0 1px 6px #e0e0e0;
+          box-shadow: 0 1px 6px #e0e0e0;
+  border-color: rgba(223, 225, 229, 0);
+}
+
+#main .buttons, main .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.3rem;
+}
+
+#main .buttons button, main .buttons button {
+  font-size: 14px;
+  width: 8.5rem;
+  height: 2.3rem;
+  margin: 0.4rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #F8F9FA;
+}
+
+#main .buttons button:hover, main .buttons button:hover {
+  -webkit-box-shadow: 0 1px 1px #E8E8E8;
+          box-shadow: 0 1px 1px #E8E8E8;
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+#main .offered-zone, main .offered-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  margin-top: 1.3rem;
+}
+
+#main .offered-zone a, main .offered-zone a {
+  margin-left: 0.3rem;
+  text-decoration: none;
+}
+
+#main .offered-zone a:hover, main .offered-zone a:hover {
+  text-decoration: underline;
+}
+
+#footer, footer {
+  min-width: 100vw;
+  position: fixed;
+  bottom: 0;
+  background: #f2f2f2;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+#footer h4, footer h4 {
+  color: #6F6F6F;
+  font-weight: normal;
+  border-bottom: 1px solid #DADCE0;
+  padding: 1rem 2rem;
+}
+
+#footer ul, footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+#footer .left-side, #footer .right-side, footer .left-side, footer .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 2rem;
+  font-size: 14px;
+}
+
+#footer .left-side a, #footer .right-side a, footer .left-side a, footer .right-side a {
+  color: #70757A;
+  text-decoration: none;
+}
+
+#footer .left-side a:hover, #footer .right-side a:hover, footer .left-side a:hover, footer .right-side a:hover {
+  text-decoration: underline;
+}
+
+#footer .left-side li:not(:nth-child(1)), #footer .right-side li:not(:nth-child(1)), footer .left-side li:not(:nth-child(1)), footer .right-side li:not(:nth-child(1)) {
+  margin-left: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */
