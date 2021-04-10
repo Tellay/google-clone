@@ -39,6 +39,7 @@
   text-decoration: none;
   color: #000000de;
   margin-bottom: -0.1rem;
+  outline: none;
 }
 
 #header li:nth-child(1), #header li:nth-child(2) {
@@ -108,6 +109,16 @@
   -webkit-box-shadow: 0 1px 6px #e0e0e0;
           box-shadow: 0 1px 6px #e0e0e0;
   border-color: rgba(223, 225, 229, 0);
+}
+
+#main .input-zone span, main .input-zone span {
+  position: absolute;
+  background-image: url("https://www.gstatic.com/inputtools/images/tia.png");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-left: 31.50rem;
+  margin-top: 0.7rem;
 }
 
 #main .buttons, main .buttons {
