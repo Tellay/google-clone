@@ -69,13 +69,13 @@
     }
 
     input {
-        width: 580px;
-        height: 46px;
         border-radius: 24px;
         outline: none;
-        border: 1px solid #dfe1e5;
         padding-left: 2.7rem;
         font-size: 16px;
+        width: 31rem;
+        height: 2rem;
+        border: none;
     }
     
     .input-zone {
@@ -83,6 +83,10 @@
         align-items: center;
         margin-top: 1.5rem;
         border-radius: 24px;
+        width: 580px;
+        height: 46px;
+        border: 1px solid #dfe1e5;
+
         &:hover {
             box-shadow: 0 1px 6px #e0e0e0;
             border-color: rgba(223,225,229,0);
@@ -96,6 +100,7 @@
             height: 24px;
             margin-left: 31.50rem;
             margin-top: 0.7rem;
+            cursor: pointer;
         }
     }
 
